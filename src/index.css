@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-routing-container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  max-height: 400px;
+  overflow-y: auto;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.leaflet-routing-alt {
+  max-height: none !important;
+}
+
+.leaflet-routing-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.leaflet-routing-container h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4b5563;
+}
